@@ -86,7 +86,7 @@ GitHub Releases
 - v3.0-final – Final integrated application with MySQL, Tasks, Quiz, NLP and Activity Log.
 
 GitHub Repository
-Repository link: \[Paste your GitHub repository link here]
+Repository link: https://github.com/msizankosinathinutty-boop/CyberSecurityBot.GUI-Part2
 
 Conclusion
 The final project demonstrates the development of a cybersecurity awareness application by combining C# programming, graphical user interface development, database integration, object-oriented programming and basic natural language processing techniques.
