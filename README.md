@@ -1,31 +1,94 @@
-# CyberSecurityBot.GUI-Part2
-CYBER SECURITY AWARENESS BOT - Part 2
+Cybersecurity Awareness Chatbot – Final POE
 
-Project Overview:
-This projejct is a continuation of the Cyber Security Awareness Bot, focusing on enhancing its capabilities and features. The bot is designed to educate users about cyber security best practices, threats, and mitigation strategies through interactive sessions.
-The command line has now been updated to a graphical user interface (GUI) using C# and Windows PResentation FOundation.
-It alsso helps users learn about cybersecurity through intercative ocnversations.
+Student Number: ST10499797
 
-Features:
-* GUI - user friendly interface with colours, spacing, voice greeting and ASCII art.
-* Keyword Recognition - recognises topics such as passwords, scams, privacy and phishing.
-* Random respomses - provides varied security tips and advice to keep the user engaged.
-* Conversation Flow - supports follow up questions such as "Tell me more"
-* Memory - remembers the user's name and favorite cybersecurity topics during the conversation.
-* Sentiment Detection - responds to feelings such as worry, curiosity and frustration with empathy and relevant advice.
-* Error Handling - handles unexpected inputs and provides helpful guidance.
+Project Overview
+The Cybersecurity Awareness Chatbot is a Windows Forms application developed in C#. It helps users learn about cybersecurity through an interactive chatbot, task assistant, cybersecurity quiz and activity log.
 
-Technologies:
-* C#
-* .NET and WPF
-* Microsoft Visual Studio 2022
-* GitHub
+The final application combines the functionality developed in Part 1, Part 2 and Part 3 of the Programming 2A Portfolio of Evidence.
 
-How to Use:
-Users interact with the Cyber Security Awaereness Both through a graphical user interface.
-They can type messages into the input box and click the "Send" button to receive responses.
-The chatbot recognises cybersecurity keywords such as passwords, scams, privacy, and phishing, and provides relevant information and advice.
-Users can also ask follow-up questions, and the bot will remember their name and favorite cybersecurity topics for a more personalized experience.
-The chatbot also detects the user's sentiment and responds with empathy and relevant advice.
-If it does not understand a message, it will provide helpful guidance and suggestions for rephrasing the question.
-Users can start a new conversation, explore different topics, and learn about cybersecurity best practices and how to stay safe online.
+Features
+Part 1 – Basic Chatbot
+- Personalised voice greeting.
+- Cybersecurity-themed ASCII artwork.
+- Basic cybersecurity conversations.
+- Input validation.
+- Responses about password safety, phishing and safe browsing.
+
+Part 2 – GUI and Chatbot Enhancements
+- Windows Forms graphical user interface.
+- Keyword recognition.
+- Randomised chatbot responses.
+- Conversation flow and memory.
+- Sentiment detection.
+- Generic collections and delegates.
+
+Part 3 – Advanced Features
+- Cybersecurity Task Assistant.
+- Add, view, complete and delete tasks.
+- Optional task reminders.
+- MySQL database integration.
+- Twelve-question cybersecurity quiz.
+- Multiple-choice and true/false questions.
+- Immediate answer feedback and final scoring.
+- NLP-style command recognition using string processing.
+- Activity Log showing recent user actions.
+- Integration of all three POE parts.
+
+Technologies Used
+- C#
+- .NET Windows Forms
+- Visual Studio 2022
+- MySQL
+- MySql.Data
+- Git and GitHub
+
+Project Structure
+The project uses separate folders to organise its responsibilities:
+- Models: Application data classes.
+- Data: Database configuration and task repository.
+- Services: Chatbot, quiz, NLP and activity logging logic.
+- Audio: Voice greeting audio file.
+- GUI: Main Windows Forms interface.
+
+Database Setup
+1. Install and start MySQL Server.
+2. Open MySQL Workbench or another MySQL client.
+3. Run the supplied`database_setup.sql` script.
+4. Open `DatabaseConfig.cs`.
+5. Configure the local MySQL connection string.
+6. Replace the password placeholder with your local MySQL password.
+7. Run the application.
+
+How to Use the Application
+Chat Tab
+Enter a message to interact with the cybersecurity chatbot. Ask questions about cybersecurity or use recognised commands.
+
+Tasks Tab
+Create cybersecurity tasks by entering a title and description. You can also set an optional reminder. Select tasks to complete or delete them.
+
+Cyber Quiz Tab
+Start the quiz and answer the cybersecurity questions. The application provides feedback and tracks your score.
+
+Activity Log Tab
+View recent actions performed during the application session. Use the refresh and show more options to display recent activities.
+
+Example Chat Commands
+- Add a task to review privacy settings.
+- Remind me to update my password tomorrow.
+- Start the cyber quiz.
+- Show my tasks.
+- What have you done for me?
+
+GitHub Releases
+- v1.0-part1 – Basic console chatbot.
+- v2.0-part2 – GUI and enhanced chatbot functionality.
+- v3.0-final – Final integrated application with MySQL, Tasks, Quiz, NLP and Activity Log.
+
+GitHub Repository
+Repository link: \[Paste your GitHub repository link here]
+
+Conclusion
+The final project demonstrates the development of a cybersecurity awareness application by combining C# programming, graphical user interface development, database integration, object-oriented programming and basic natural language processing techniques.
+
+
